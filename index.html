@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/scss/style.css">
+    <link rel="stylesheet" href="/ionicons-2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <!--MAIN HEADER-->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Sample</a>
+            </div>
+            <div class="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="navbar-container">
+                <ul class="navbar-item">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">What i do</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--HERO BANNER-->
+    <div id="hero-banner">
+        <div class="hero-title">
+            
+            <span id="typed-title"></span> 
+                
+            <div class="socmedia">
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+                <a href="#"><i class="icon ion-social-github"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-youtube"></i></a>
+                <a href="#"><i class="icon ion-social-googleplus"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT-->
+    <section id="about" class="section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="profile-img">
+                    <img src="/images/profile.jpg" alt="">
+                </div>
+                <div class="profile-meta">
+                    <h1>I am John Doe, <br>
+                        Web Designer & Web Developer <br>
+                        from United States, California.
+                    </h1>
+                    <p>I have rich experience in web site design & building and customization. Also I am good at html, css, javascript, wordpress, php, jquery, bootstrap. I love to talk with you about our unique approach. Feel free to contact me writing an email with your project idea.</p>
+                    <a href="#">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--WHAT DO I DO-->
+    <section id="services" class="section-gap">
+        <div class="container">
+            <div class="title">
+                <h2>What I Do</h2>
+            </div>
+            <div class="row">
+                <div class="service-item">                    
+                    <div class="service-icon">
+                        <i class="icon ion ion-ios-browsers-outline"></i>
+                    </div>
+                    <h4>UI/UX Design</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="icon ion ion-ios-lightbulb-outline"></i>
+                    </div>
+                    <h4>Brand Identity</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="icon ion ion-ios-color-wand-outline"></i>
+                    </div>
+                    <h4>Web Design</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="icon ion ion-social-android-outline"></i>
+                    </div>
+                    <h4>Mobile Apps</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="icon ion ion-ios-analytics-outline"></i>
+                    </div>
+                    <h4>Analytics</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="icon ion ion-ios-camera-outline"></i>
+                    </div>
+                    <h4>Photography</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--WORKS-->
+    <section id="works" class="section-gap">
+        <div class="container">
+            <div class="title">
+                <h2>Recent Works</h2>
+            </div>
+            <div class="filter-btn__container">
+                <a href="#" class="active" data-filter="all">All</a>
+                <a href="#" data-filter="branding">Branding</a>
+                <a href="#" data-filter="mockups">Mockups</a>
+                <a href="#" data-filter="uikits">UI Kits</a>
+                <a href="#" data-filter="photography">Photography</a>
+            </div>
+
+            <div class="row">
+                <div class="work-item all mockups" data-index="0">
+                    <a href="#" class="has-popup">
+                        <img src="/images/work1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work-item all branding" data-index="1">
+                    <a href="#" class="has-popup">
+                        <img src="/images/work2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work-item all mockups" data-index="2">
+                    <a href="#" class="has-popup">
+                        <img src="/images/work3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work-item all branding" data-index="3">
+                    <a href="#" class="has-popup">
+                        <img src="/images/work4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work-item all photography" data-index="4">
+                    <a href="#" class="has-popup">
+                        <img src="/images/work5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="work-item all uikits" data-index="5">
+                    <a href="#" class="has-popup">
+                        <img src="/images/work6.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BLOG-->
+    <section id="blog" class="section-gap">
+        <div class="container">
+            <div class="title">
+                <h2>Latest Blogs</h2>
+            </div>
+            <div class="row">
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="/images/blog-1.jpg" alt="">
+                    </div>
+                    <div class="blog-desc">
+                        <a href="#" class="blog-title">Grow Your Online Business</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi velit est vero voluptatum cum vel.</p>
+                        <span class="author">John Doe - 7 Dec 2018</span>
+                        
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="/images/blog-2.jpg" alt="">
+                    </div>
+                    <div class="blog-desc">
+                        <a href="#" class="blog-title">Our Business Analytics</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi velit est vero voluptatum cum vel.</p>
+                        <span class="author">John Doe - 7 Dec 2018</span>
+                        
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="/images/blog-3.jpg" alt="">
+                    </div>
+                    <div class="blog-desc">
+                        <a href="#" class="blog-title">Grow Together With Us</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi velit est vero voluptatum cum vel.</p>
+                        <span class="author">John Doe - 7 Dec 2018</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="#" class="blog-btn">View Blog</a>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT-->
+    <div id="contact" class="section-gap">
+        <div class="container">
+            <div class="title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="form-wrapper">
+                <form action="#" id="cform">
+                    <div class="form-group">
+                        <div class="row">
+                            <input type="text" name="name" placeholder="Name *">
+                            <input type="text" name="phone" placeholder="Phone *">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <input type="email" name="email" placeholder="Email *">
+                            <input type="text" name="subject" placeholder="Subject *">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                </form>
+                <button type="submit" form="cform" value="Submit" id="formBtn">Send Message</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="socials">
+            <a href="#"><i class="icon ion ion-social-facebook"></i></a>
+            <a href="#"><i class="icon ion ion-social-github"></i></a>
+            <a href="#"><i class="icon ion ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion ion-social-youtube"></i></a>
+            <a href="#"><i class="icon ion ion-social-googleplus"></i></a>
+        </div>
+        <div class="copyright">&copy; 2018 Sample. all rights reserved</div>
+    </footer>
+
+
+    
+
+    <!--LIGHTBOX MODAL-->
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-content">
+
+                <div class="modal-item active">
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="/images/work1.jpg" alt="">
+                        </div>
+                        <div class="modal-text">
+                            <span>Mockups</span>
+                            <h2>Shopping Bag Mockup</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam harum dolorem inventore, ab velit ipsum. Odio perspiciatis dolorum ipsam.</p>
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!--END-->
+                <div class="modal-item">
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="/images/work2.jpg" alt="">
+                        </div>
+                        <div class="modal-text">
+                            <span>Branding</span>
+                            <h2>Hanging Wall Sign</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam harum dolorem inventore, ab velit ipsum. Odio perspiciatis dolorum ipsam.</p>
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!--END-->
+                <div class="modal-item">
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="/images/work3.jpg" alt="">
+                        </div>
+                        <div class="modal-text">
+                            <span>Mockups</span>
+                            <h2>Realistic Business Cards</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam harum dolorem inventore, ab velit ipsum. Odio perspiciatis dolorum ipsam.</p>
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!--END-->
+                <div class="modal-item">
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="/images/work4.jpg" alt="">
+                        </div>
+                        <div class="modal-text">
+                            <span>Branding</span>
+                            <h2>Juice Bottle Packaging</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam harum dolorem inventore, ab velit ipsum. Odio perspiciatis dolorum ipsam.</p>
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!--END-->
+                <div class="modal-item">
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="/images/work5.jpg" alt="">
+                        </div>
+                        <div class="modal-text">
+                            <span>Photography</span>
+                            <h2>Mug PSD Mockup</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam harum dolorem inventore, ab velit ipsum. Odio perspiciatis dolorum ipsam.</p>
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!--END-->
+                <div class="modal-item">
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="/images/work6.jpg" alt="">
+                        </div>
+                        <div class="modal-text">
+                            <span>Mockups</span>
+                            <h2>Shopping Bag Mockup</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam harum dolorem inventore, ab velit ipsum. Odio perspiciatis dolorum ipsam.</p>
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!--END-->
+            
+                <button class="close-btn">
+                    <i class="ion-android-close"></i>
+                </button>
+            </div>
+
+             
+            <button class="modal-arrow arrow-prev">
+                <i class="ion-android-arrow-dropleft"></i>
+            </button>
+            <button class="modal-arrow arrow-next">
+                    <i class="ion-android-arrow-dropright"></i>
+            </button>
+            
+
+        </div>
+        
+    </div>
+
+
+    <!--MOBILE MENU-->
+    <div class="mobile-menu__modal">
+        <div class="mobile-content">
+            <ul class="mobile-items">
+                <li><a href="#">About</a></li>
+                <li><a href="#">What i do</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
